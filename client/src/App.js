@@ -3,10 +3,10 @@ import {Container , AppBar , Typography ,Grid ,Grow} from '@material-ui/core';
 import memories from './images/memories.png';
 import Form from './components/Form/Form.js';
 import Posts from './components/Posts/Posts.js';
-import useStyle from './style.js'
+import useStyles from './styles.js';
 
 const App = () => {
-    const classes = useStyle();
+    const classes = useStyles();
     return(
         <Container maxWidth = "lg">
             <AppBar className={classes.appBar} position ="static" color="inherit">
