@@ -7,7 +7,7 @@ import Posts from './components/Posts/Posts.js';
 
 const App = () => {
     return(
-        <Container maxWidth = "lg">
+        <Container maxidth = "lg">
             <AppBar position ="static" color="inherit">
                 <Typography varient = "h2" align='center'>memories</Typography>
                 <img src={memories} alt='memories' height = "60" />
