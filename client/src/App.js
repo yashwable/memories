@@ -8,14 +8,14 @@ import useStyle from './style.js'
 const App = () => {
     const classes = useStyle();
     return(
-        <Container maxidth = "lg">
+        <Container maxWidth = "lg">
             <AppBar className={classes.appBar} position ="static" color="inherit">
-                <Typography className={classes.heading} varient = "h2" align='center'>memories</Typography>
+                <Typography className={classes.heading} variant = "h2" align='center'>memories</Typography>
                 <img className={classes.image} src={memories} alt='memories' height = "60" />
             </AppBar>
             <Grow in>
                 <Container>
-                    <Grid container justify="space-between" alignItems='streach' spacing={3}>
+                    <Grid container justify="space-between" alignItems='stretch' spacing={3}>
                         <Grid item xs={12} sm={7}>
                             <Posts/>
                         </Grid>
